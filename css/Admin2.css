@@ -1,0 +1,35 @@
+body{
+    background: url(../images/madera2.jpg);
+    background-size: cover;
+}
+header .contenedor{
+  display: flex;
+  justify-content: center;
+}
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+h1,h2{
+  width: 90%;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+.acordeon{
+    width: 500px;
+    margin: 0 auto;
+}
+.acordeon h3{
+    text-align: center;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+.mantenimiento h2{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
